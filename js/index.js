@@ -1,17 +1,24 @@
-let cartIcon = document.querySelector("#cart-icon");
-let cart = document.querySelector(".cart");
+// let cartIcon = document.querySelector("#cart-icon");
+// let cart = document.querySelector(".cart");
 
-
-
+document.getElementById("cart-icon").addEventListener("click", cartIcon);
 
 // // Open Cart
-cartIcon.onclick = () => {
-  cart.classList.add("active");
-};
-
-// Cart Working JS
-if (document.readyState == "loading") {
-  document.addEventListener("DOMContentLoaded", ready);
-} else {
-  ready();
+function cartIcon() {
+  document.querySelectorAll(".cart").innerHTML = "cart"
 }
+
+
+
+
+// document.getElementsByClassName(".g")
+// cartIcon.onclick = () => {
+//   cart.classList.add("active");
+// };
+
+// // Cart Working JS
+// if (document.readyState == "loading") {
+//   document.addEventListener("DOMContentLoaded", ready);
+// } else {
+//   ready();
+// }
