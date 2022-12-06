@@ -1,0 +1,15 @@
+
+:root{
+  --mainblack: #1d1f22;
+  --mainwhite: #fff;
+}
+body{
+  
+  background: var(--mainwhite) !important;
+  padding: 0 100px;
+}
+
+.text-title{
+  color: var(--mainblack);
+  font-family: "Raleway" !important;
+}

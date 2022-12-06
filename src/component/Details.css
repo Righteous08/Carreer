@@ -1,0 +1,44 @@
+.mx-left{
+    width: 6rem;
+    height: 6rem;
+}
+
+.img-fluid{
+    padding: 10px;
+}
+.mid{
+    width: 500px;
+    height: 500px;
+}
+.size, .price{
+    margin-top: 2rem;
+}
+.button{
+    background-color: #fff;
+    color: #000;
+    border-radius:0px ;
+    border-color: #000;
+    margin-inline: 3px;
+    padding: 5px 25px;
+    margin-top: 1px;
+    
+}
+.normal{
+    background-color: #000;
+    color: #fff;
+
+}
+.add-to-cart{
+    margin: 2rem 0rem;
+    padding: 15px 20px;
+    background-color: #5ece7b;
+    border-radius: 0px;
+    border: none;
+    width: 300px;
+    text-align: center;
+
+}
+
+.footer-info{
+    width: 300px;
+}
